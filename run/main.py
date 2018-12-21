@@ -1,7 +1,7 @@
 from similarity.store_similarity import *
 from graph.graph import *
 if __name__=='__main__':
-    file=open('D://学习/大三/可视化/大作业/data.txt', 'r')
+    file=open('***.txt', 'r')
     done=0
     num=0              #论文对应的序号
     dict1={}           #dict1  key:论文序号  value:论文名称
