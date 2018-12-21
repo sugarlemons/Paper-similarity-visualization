@@ -2,18 +2,17 @@
 本工程用于计算不同论文间的相似度，并将它们之间的关系以坐标系中坐标的形式呈现。
 
 
-##graph
-用于实现无向图的数据格式转换和二维点坐标的生成。具体的说明见graph里的readme.md
+##graph<br>用于实现无向图的数据格式转换和二维点坐标的生成。具体的说明见graph里的readme.md
 
 
 ##similarity
-包括三个py文件:jaccard.py, show_similarity.py, store_similarity.py
-###jaccard.py
-利用jaccard算法计算数据集之间的相似度。其中包含了两种数据格式的实现方法：1.元组和集合  2.字典
-###show_similarity
-显示不同数据集间的相似度
-###store_similarity
-将不同数据集的相似度信息存储在字典中，格式为：{0: {1: w01, 2: w02, ...}, 1: {2: w12, ...}, ...},其中wnm代表n和m数据集的相似度
+<br>包括三个py文件:jaccard.py, show_similarity.py, store_similarity.py
+<br>###jaccard.py
+<br>利用jaccard算法计算数据集之间的相似度。其中包含了两种数据格式的实现方法：1.元组和集合  2.字典
+<br>###show_similarity
+<br>显示不同数据集间的相似度
+<br>###store_similarity
+<br>将不同数据集的相似度信息存储在字典中，格式为：{0: {1: w01, 2: w02, ...}, 1: {2: w12, ...}, ...},其中wnm代表n和m数据集的相似度
 
 
 ##run
