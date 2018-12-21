@@ -3,7 +3,7 @@
 
 
 ## graph
-<br>用于实现无向图的数据格式转换和二维点坐标的生成。具体的说明见graph里的readme.md
+用于实现无向图的数据格式转换和二维点坐标的生成。具体的说明见graph里的readme.md
 
 
 ## similarity
