@@ -8,11 +8,11 @@
 
 ## similarity
 <br>包括三个py文件:jaccard.py, show_similarity.py, store_similarity.py
-<br>###jaccard.py
+### jaccard.py
 <br>利用jaccard算法计算数据集之间的相似度。其中包含了两种数据格式的实现方法：1.元组和集合  2.字典
-<br>###show_similarity
+### show_similarity
 <br>显示不同数据集间的相似度
-<br>###store_similarity
+### store_similarity
 <br>将不同数据集的相似度信息存储在字典中，格式为：{0: {1: w01, 2: w02, ...}, 1: {2: w12, ...}, ...},其中wnm代表n和m数据集的相似度
 
 
